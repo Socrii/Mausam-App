@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="mian.css">
+</head>
+<body>
+
+    <div class="appname">
+        <h1>Mausam APP</h1>
+    </div>
+    <div class="card">
+                <div class="searchbox">
+                    <input type="text" name="citybox" id="citybox" placeholder="Enter location ">
+                    <button type="submit" id="searchbtn" onclick="getWeather()">Search</button>
+                </div>
+                <div class="error">
+                    <center id="error">No such city found please check</center>
+                    <img src="aayein.webp" alt="aayein   ">
+                </div>
+                <div class="weather">
+                    <img src="clear.png" alt="clear sky" class="weatherpics">
+                    <h1 class="temp">32°C </h1>
+                    <h1 class="city">Maharajganj </h1>
+                    <div class="details">
+                        <div class="col">
+                                <img src="humidity.png">
+                                <div>
+                                    <p class="humidity">50%</p>
+                                    <p>Humidity</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <img src="wind.png">
+                                <div>
+                                    <p class="wind">15kmph</p>
+                                    <p>Wind Speed</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+               
+                </div>
+            </body>
+        <script src="main.js"></script>
+</html>

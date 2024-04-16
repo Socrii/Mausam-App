@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    background: linear-gradient(#e66465, #9198e5);
+    background-size: cover;
+}
+
+.appname 
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.appname h1 
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+.card {
+    width: 95%;
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px;
+    padding: 40px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.searchbox 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.searchbox input[type="text"] 
+{
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+.searchbox button 
+{
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #db79aa;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.searchbox button:hover 
+{
+    background-color: #d25289;
+}
+
+.error 
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error img 
+{
+    margin-top: 10px;
+    width: 80%;
+}
+
+.weather 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherpics 
+{
+    width: 150;
+    margin-bottom: 20px;
+}
+
+.temp {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.city {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 300px;
+}
+
+.details .col 
+{
+    display: flex;
+    align-items: center;
+}
+
+.details .col img 
+{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.details .col p
+{
+    margin: 0;
+}
